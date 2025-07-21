@@ -1,0 +1,135 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Main Container */
+.todo-container {
+  width: 100%;
+  max-width: 550px;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.todo-container h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button {
+  padding: 12px 18px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #f0f0f0;
+}
+
+/* Task Text */
+li span {
+  flex: 1;
+  font-size: 1.05rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/* Done Task */
+.done {
+  text-decoration: line-through;
+  color: #888;
+  font-style: italic;
+}
+
+/* Buttons */
+li button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+li button:first-of-type {
+  background: #ff4d4f;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background: #d9363e;
+}
+
+li button:last-of-type {
+  background: #28a745;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background: #1e7e34;
+}
