@@ -1,40 +1,36 @@
-# 📝 React Redux To-Do App
+# 🎨 To-Do App with React & Redux
 
-A simple and responsive **To-Do List application** built with **React** and **Redux Toolkit**, allowing users to:
+🌐 **Live Preview:** [aditya30-06.github.io/To-Do-Redux](https://aditya30-06.github.io/To-Do-Redux/)
 
-- Add new tasks
-- Mark tasks as done or undone
-- Delete tasks
-- Track task completion with clean UI feedback
+A gentle, clean, and simple **To-Do List App** built with **React** and **Redux Toolkit** — perfect for organizing your thoughts one task at a time.
 
 ---
 
-## 🚀 Features
+## 🌟 Features
 
-- ⚛️ Built using React Functional Components & Hooks
-- 🗂️ State management via Redux Toolkit
-- 🎯 Conditional styling for done vs. pending tasks
-- 💅 Clean and responsive design using custom CSS
-- 📦 Easily extendable for localStorage or filtering
-
----
-
-## 🛠️ Tech Stack
-
-- **React** – UI components
-- **Redux Toolkit** – State management
-- **JavaScript (ES6+)**
-- **CSS** – Custom styling
-
+- ✨ Add tasks with ease
+- ☑️ Mark tasks as completed or undone
+- 🧹 Delete tasks when you're done with them
+- 🎨 Smooth and soft UI transitions
+- 💖 Built with simplicity and clarity in mind
 
 ---
 
-## 🧠 How It Works
+## 🛠 Tech Stack
 
-1. Users enter a task in the input field and click “Add Task”.
-2. The task is added to Redux state using `addToDo`.
-3. Each task can be:
-   - ✅ Marked as done/undone via `markasDone` / `markasunDone`
-   - 🗑️ Deleted via `deleteToDo`
+- **React** – For building interactive UIs
+- **Redux Toolkit** – For managing application state
+- **JavaScript (ES6+)** – Logic and interactions
+- **Custom CSS** – Clean, pastel-style visuals
 
 ---
+
+## 📚 How It Works
+
+1. Type your task in the input field.
+2. Click **“Add Task”** to save it to your list.
+3. Use check and delete icons to update or remove tasks.
+4. All interactions update the global Redux state seamlessly.
+
+---
+
